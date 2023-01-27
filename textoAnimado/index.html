@@ -1,61 +1,93 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <title>texto Animado</title>
     <style>
-    *{
-        background-color: rgb(202, 188, 188);
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-        font-size: 30px;
-        font-family: sans-serif;
-    }
+        * {
+            background-color: #003f88;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-size: 28px;
+            font-family: 'Ubuntu', sans-serif;
+        }
 
-    body {
-        height: 100vh;
-        margin: 0px;
-        padding: 0px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+        body {
+            height: 100vh;
+            margin: 0px;
+            padding: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-    .wrapper {
-        box-sizing: content-box;
-        padding: 50px 30px;
-        border-radius: 17px;
-        display: flex;
-        background: blueviolet;
-        box-shadow: 0px 12px 27px black;
-    }
+        .wrapper {
+            box-sizing: content-box;
+            padding: 50px 30px;
+            border-radius: 17px;
+            display: flex;
+            background: #f5cb5c;
+            box-shadow: 0px 12px 27px rgba(225, 223, 223, 0.736);
+        }
 
-    .words {
-        overflow: hidden;
-        height: 50px;
-    }
+        .words {
+            overflow: hidden;
+            height: 50px;
+            font-size: 18px;
+        }
 
-    span {
-        display: flex;
-        height: 100%;
-        padding-left:7px ;
-        animation:spin 6s infinite;
-    }
+        span {
+            display: flex;
+            height: 100%;
+            padding-left: 7px;
+            animation: spin 6s infinite;
+            color: aliceblue;
+        }
 
-    @keyframes spin {
-        10%{transform: translateY(-112%);}
-        25%{transform: translateY(-100%);}
-        25%{transform: translateY(-210%);}
-        50%{transform: translateY(-190%);}
-        50%{transform: translateY(-312%);}
-        75%{transform: translateY(-300%);}
-        80%{transform: translateY(-112%);}
-    }
+        p {
+            font-size: 35px;
+            color: aliceblue;
+        }
+
+        @keyframes spin {
+            10% {
+                transform: translateY(-112%);
+            }
+
+            25% {
+                transform: translateY(-100%);
+            }
+
+            25% {
+                transform: translateY(-210%);
+            }
+
+            50% {
+                transform: translateY(-190%);
+            }
+
+            50% {
+                transform: translateY(-312%);
+            }
+
+            75% {
+                transform: translateY(-300%);
+            }
+
+            80% {
+                transform: translateY(-112%);
+            }
+        }
     </style>
 </head>
+
 <body>
 
     <div class="wrapper">
@@ -69,6 +101,7 @@
     </div>
 
 
-    
+
 </body>
+
 </html>
