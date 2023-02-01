@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300;1,400&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+
+        }
+
+        h1 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: 600;
+            font-size: 5rem;
+            color: rgb(51, 50, 50);
+            border: 3px solid rgb(51, 50, 50);
+            padding: 2rem 4rem;
+
+        }
+
+        
+
+        .gradient {
+
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(45deg, #7286D3, #7c92d0, #c8c2e7, #f549ead8);
+            background-size: 150% 300%;
+            animation: colors 20s ease infinite;           
+            
+            
+        }
+
+        @keyframes colors {
+            0% {
+
+                background-position: 0% 70%;
+            }
+            70% {
+
+                background-position: 100% 50%;
+            }
+            100% {
+
+                background-position: 0% 50%;
+            }
+
+        }
+    </style>
+
+
+</head>
+
+
+<body class="gradient">
+    <div class="container">
+
+        <h1>tela de fundo </h1>
+
+    </div>
+
+
+
+</body>
+
+</html>
